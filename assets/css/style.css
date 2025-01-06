@@ -1,0 +1,179 @@
+.theme-main-banner .title-wrapper.designer {
+    position: absolute;
+    z-index: 5;
+    top: 63.2% !important;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-menu ul li a::before {
+    content: "";
+}
+body.dark-theme .main-menu ul li a:hover {
+    color: #ff8a00;
+}
+body.dark-theme .skills-secion {
+    background: #202020;
+}
+body.dark-theme .qualifications-wrapper .header-sec h3 {
+    color: #181818;
+    font-size: 22px;
+    padding-left: 10px;
+}
+.qualifications-wrapper {
+    padding: 40px 30px 5px 30px;
+    min-height: 530px;
+}
+body.dark-theme .qualifications-wrapper p {
+    color: #181818;
+}
+.close-mobile-menu{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.about-text-wrapper .text-list li {
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    border-bottom: none;
+    padding-top: 35px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.about-text-wrapper ul.text-list li::before {
+    top: 30px;
+}
+.about-text-wrapper p {
+    margin-bottom: 30px;
+}
+.header-sec .icon{
+    background: none;
+}
+.header-sec img{
+    object-fit: contain;
+    height: 60px;
+}
+.skills-section .icon{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+.img-holder img{
+    width: 100%;
+    object-fit: contain;
+}
+.text-img img{
+    width: 100%;
+    object-fit: contain;
+}
+.skills-section .icon img{
+    max-width: 100%;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: 500ms;
+}
+.skills-section .icon img:hover{
+    filter: grayscale(0%);
+    /* rotate: 360deg; */
+    transform: rotateY(360deg);
+}
+.footer-area-one .footer-widget p {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 50px;
+    color: white;
+    font-size: 33px;
+}
+.footer-widget strong{
+    font-family: "Love Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #ff8a00;
+  }
+  .social-media a:hover {
+    background: #ff8a00;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+@media (max-width: 1600px) {
+    .author-thumb img:first-child{
+        height: 600px;
+    }
+}
+@media (max-width: 1400px) {
+    .qualifications-wrapper {
+        min-height: 625px;
+    }
+}
+@media (max-width: 1200px) {
+    .qualifications-wrapper {
+        padding: 20px 20px 5px 20px;
+        min-height: 677px;
+    }
+    .qualifications-wrapper .body-list{
+        padding: 15px 0px 10px;
+    }
+}
+@media (max-width: 991.98px) {
+    .qualifications-wrapper {
+        min-height: 350px;
+    }
+    .skills-section .icon {
+        height: 80px;
+        width: 80px;
+    }
+    .theme-main-banner .author-thumb {
+        position: absolute;
+    }
+}
+@media (max-width: 767px) {
+    .slide-bar {
+        padding: 0px 20px;
+        height: 440px;
+        border-radius: 0px 0px 0px 10px;
+    }
+    .offset-sidebar .ht_btn {
+        margin-top: 20px;
+        padding: 19px 26px 17px 26px;
+    }
+    .theme-main-banner .author-thumb img {
+        height: 270px;
+    }
+    .skills-section .icon {
+        height: 65px;
+        width: 65px;
+    }
+}
+@media (max-width: 576px) { 
+    .theme-main-banner .title-wrapper.designer {
+        top: 33.7% !important;
+    }
+    #home h1{
+        margin-bottom: 0px !important;
+        line-height: 1.2;
+    }
+    .theme-main-banner .author-thumb {
+        padding-top: 35px;
+    }
+    .theme-main-banner .author-thumb {
+        position: relative;
+    }
+    .theme-main-banner .title-wrapper.designer {
+        top: 38.2% !important;
+    }
+    .inner-content {
+        padding-bottom: 25px;
+    }
+    .skills-section .icon {
+        height: 40px;
+        width: 40px;
+    }
+ }
+
+ @media (max-width: 400px){
+    .skills-section .icon {
+        height: 35px;
+        width: 35px;
+    }
+ }
